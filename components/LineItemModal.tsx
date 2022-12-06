@@ -6,7 +6,7 @@ function LineItemModal({ visible, onOk, onCancel }) {
 
   return (
     <Modal
-      visible={visible}
+      open={visible}
       title="Add New Line Item"
       okText="Add"
       cancelText="Cancel"

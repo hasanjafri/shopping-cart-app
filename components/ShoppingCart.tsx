@@ -83,9 +83,9 @@ function ShoppingCart() {
                   <h4>Price: ${item.price}</h4>
                 </div>
               </div>
-              <p className="swatch">
+              <div className="swatch">
                 <Swatch color={item.swatchColor} /> {item.swatchTitle}
-              </p>
+              </div>
               <div
                 style={{
                   display: "flex",
